@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361663951E08E956006507B9 /* AddContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361663941E08E956006507B9 /* AddContactTableViewController.swift */; };
 		3661CC631E0712CB00235223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC621E0712CB00235223 /* AppDelegate.swift */; };
-		3661CC651E0712CB00235223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC641E0712CB00235223 /* ViewController.swift */; };
+		3661CC651E0712CB00235223 /* AddContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC641E0712CB00235223 /* AddContactController.swift */; };
 		3661CC681E0712CB00235223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3661CC661E0712CB00235223 /* Main.storyboard */; };
 		3661CC6A1E0712CB00235223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3661CC691E0712CB00235223 /* Assets.xcassets */; };
 		3661CC6D1E0712CB00235223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3661CC6B1E0712CB00235223 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361663941E08E956006507B9 /* AddContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactTableViewController.swift; sourceTree = "<group>"; };
 		3661CC5F1E0712CB00235223 /* KnifeLifePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnifeLifePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3661CC621E0712CB00235223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3661CC641E0712CB00235223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3661CC641E0712CB00235223 /* AddContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactController.swift; sourceTree = "<group>"; };
 		3661CC671E0712CB00235223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3661CC691E0712CB00235223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3661CC6C1E0712CB00235223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				3661CC621E0712CB00235223 /* AppDelegate.swift */,
-				3661CC641E0712CB00235223 /* ViewController.swift */,
+				3661CC641E0712CB00235223 /* AddContactController.swift */,
+				361663941E08E956006507B9 /* AddContactTableViewController.swift */,
 				3661CC661E0712CB00235223 /* Main.storyboard */,
 				3661CC691E0712CB00235223 /* Assets.xcassets */,
 				3661CC6B1E0712CB00235223 /* LaunchScreen.storyboard */,
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3661CC651E0712CB00235223 /* ViewController.swift in Sources */,
+				3661CC651E0712CB00235223 /* AddContactController.swift in Sources */,
 				3661CC631E0712CB00235223 /* AppDelegate.swift in Sources */,
+				361663951E08E956006507B9 /* AddContactTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				3661CC891E0712CB00235223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3661CC8A1E0712CB00235223 /* Build configuration list for PBXNativeTarget "KnifeLifePlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				3661CC8C1E0712CB00235223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3661CC8D1E0712CB00235223 /* Build configuration list for PBXNativeTarget "KnifeLifePlaygroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				3661CC8F1E0712CB00235223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

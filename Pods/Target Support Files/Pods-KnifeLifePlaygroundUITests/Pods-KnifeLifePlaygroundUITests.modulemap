@@ -1,0 +1,6 @@
+framework module Pods_KnifeLifePlaygroundUITests {
+  umbrella header "Pods-KnifeLifePlaygroundUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

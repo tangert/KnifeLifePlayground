@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6EEB116F1E6B7B68B4C892 /* Pods_KnifeLifePlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D84A88D8C3AD7F318CD61C /* Pods_KnifeLifePlayground.framework */; };
 		361663951E08E956006507B9 /* AddContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361663941E08E956006507B9 /* AddContactTableViewController.swift */; };
 		3661CC631E0712CB00235223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC621E0712CB00235223 /* AppDelegate.swift */; };
 		3661CC651E0712CB00235223 /* AddContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC641E0712CB00235223 /* AddContactController.swift */; };
@@ -15,6 +16,8 @@
 		3661CC6D1E0712CB00235223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3661CC6B1E0712CB00235223 /* LaunchScreen.storyboard */; };
 		3661CC781E0712CB00235223 /* KnifeLifePlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC771E0712CB00235223 /* KnifeLifePlaygroundTests.swift */; };
 		3661CC831E0712CB00235223 /* KnifeLifePlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC821E0712CB00235223 /* KnifeLifePlaygroundUITests.swift */; };
+		C07768A08E982CD086DD2298 /* Pods_KnifeLifePlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21E7EBF4409D49C926E2B12 /* Pods_KnifeLifePlaygroundTests.framework */; };
+		F0847AFE4688F33DA881171C /* Pods_KnifeLifePlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513596BA0A0D950AFD3EE8B7 /* Pods_KnifeLifePlaygroundUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221308EF6C134E47B0897DBA /* Pods-KnifeLifePlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnifeLifePlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnifeLifePlayground/Pods-KnifeLifePlayground.release.xcconfig"; sourceTree = "<group>"; };
 		361663941E08E956006507B9 /* AddContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactTableViewController.swift; sourceTree = "<group>"; };
 		3661CC5F1E0712CB00235223 /* KnifeLifePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnifeLifePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3661CC621E0712CB00235223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		3661CC7E1E0712CB00235223 /* KnifeLifePlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnifeLifePlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3661CC821E0712CB00235223 /* KnifeLifePlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnifeLifePlaygroundUITests.swift; sourceTree = "<group>"; };
 		3661CC841E0712CB00235223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513596BA0A0D950AFD3EE8B7 /* Pods_KnifeLifePlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnifeLifePlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		538A0B57B3B2036E7FBEADB1 /* Pods-KnifeLifePlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnifeLifePlaygroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnifeLifePlaygroundUITests/Pods-KnifeLifePlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AD6459C04F181DC315726FB /* Pods-KnifeLifePlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnifeLifePlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnifeLifePlayground/Pods-KnifeLifePlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD4D320D8D81E91A20BD132 /* Pods-KnifeLifePlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnifeLifePlaygroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnifeLifePlaygroundTests/Pods-KnifeLifePlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7BF1A22115E7C02679C6A29 /* Pods-KnifeLifePlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnifeLifePlaygroundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnifeLifePlaygroundUITests/Pods-KnifeLifePlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCDEF543ED1DDDB89DB0341F /* Pods-KnifeLifePlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnifeLifePlaygroundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnifeLifePlaygroundTests/Pods-KnifeLifePlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E21E7EBF4409D49C926E2B12 /* Pods_KnifeLifePlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnifeLifePlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D84A88D8C3AD7F318CD61C /* Pods_KnifeLifePlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnifeLifePlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6EEB116F1E6B7B68B4C892 /* Pods_KnifeLifePlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07768A08E982CD086DD2298 /* Pods_KnifeLifePlaygroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0847AFE4688F33DA881171C /* Pods_KnifeLifePlaygroundUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1C9A8F18EFECF067F8826E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9D84A88D8C3AD7F318CD61C /* Pods_KnifeLifePlayground.framework */,
+				E21E7EBF4409D49C926E2B12 /* Pods_KnifeLifePlaygroundTests.framework */,
+				513596BA0A0D950AFD3EE8B7 /* Pods_KnifeLifePlaygroundUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BCE2FB1365ADBF74A190F79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AD6459C04F181DC315726FB /* Pods-KnifeLifePlayground.debug.xcconfig */,
+				221308EF6C134E47B0897DBA /* Pods-KnifeLifePlayground.release.xcconfig */,
+				DCDEF543ED1DDDB89DB0341F /* Pods-KnifeLifePlaygroundTests.debug.xcconfig */,
+				9CD4D320D8D81E91A20BD132 /* Pods-KnifeLifePlaygroundTests.release.xcconfig */,
+				538A0B57B3B2036E7FBEADB1 /* Pods-KnifeLifePlaygroundUITests.debug.xcconfig */,
+				A7BF1A22115E7C02679C6A29 /* Pods-KnifeLifePlaygroundUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3661CC561E0712CB00235223 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				3661CC761E0712CB00235223 /* KnifeLifePlaygroundTests */,
 				3661CC811E0712CB00235223 /* KnifeLifePlaygroundUITests */,
 				3661CC601E0712CB00235223 /* Products */,
+				1BCE2FB1365ADBF74A190F79 /* Pods */,
+				1A1C9A8F18EFECF067F8826E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3661CC871E0712CB00235223 /* Build configuration list for PBXNativeTarget "KnifeLifePlayground" */;
 			buildPhases = (
+				C76EA3D7F91FF1EED89B147E /* [CP] Check Pods Manifest.lock */,
 				3661CC5B1E0712CB00235223 /* Sources */,
 				3661CC5C1E0712CB00235223 /* Frameworks */,
 				3661CC5D1E0712CB00235223 /* Resources */,
+				33A32FCD36DA5D0B80EB24B7 /* [CP] Embed Pods Frameworks */,
+				F3E443D150D98025D12CA18E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3661CC8A1E0712CB00235223 /* Build configuration list for PBXNativeTarget "KnifeLifePlaygroundTests" */;
 			buildPhases = (
+				CB67D5E9AA9E0322A7F41C2B /* [CP] Check Pods Manifest.lock */,
 				3661CC6F1E0712CB00235223 /* Sources */,
 				3661CC701E0712CB00235223 /* Frameworks */,
 				3661CC711E0712CB00235223 /* Resources */,
+				B730E025BB3E6089806384BE /* [CP] Embed Pods Frameworks */,
+				0928B41A5FD2402D0AA6B882 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3661CC8D1E0712CB00235223 /* Build configuration list for PBXNativeTarget "KnifeLifePlaygroundUITests" */;
 			buildPhases = (
+				9C2C840E53F0EB89386166C6 /* [CP] Check Pods Manifest.lock */,
 				3661CC7A1E0712CB00235223 /* Sources */,
 				3661CC7B1E0712CB00235223 /* Frameworks */,
 				3661CC7C1E0712CB00235223 /* Resources */,
+				9634EEB38ECE97B225F447D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,17 +245,20 @@
 					3661CC5E1E0712CB00235223 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 8TWVWBQE3T;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					3661CC721E0712CB00235223 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 8TWVWBQE3T;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3661CC5E1E0712CB00235223;
 					};
 					3661CC7D1E0712CB00235223 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 8TWVWBQE3T;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3661CC5E1E0712CB00235223;
 					};
@@ -259,6 +310,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0928B41A5FD2402D0AA6B882 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnifeLifePlaygroundTests/Pods-KnifeLifePlaygroundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33A32FCD36DA5D0B80EB24B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnifeLifePlayground/Pods-KnifeLifePlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9634EEB38ECE97B225F447D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnifeLifePlaygroundUITests/Pods-KnifeLifePlaygroundUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2C840E53F0EB89386166C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B730E025BB3E6089806384BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnifeLifePlaygroundTests/Pods-KnifeLifePlaygroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76EA3D7F91FF1EED89B147E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB67D5E9AA9E0322A7F41C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E443D150D98025D12CA18E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KnifeLifePlayground/Pods-KnifeLifePlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3661CC5B1E0712CB00235223 /* Sources */ = {
@@ -417,6 +591,7 @@
 		};
 		3661CC881E0712CB00235223 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD6459C04F181DC315726FB /* Pods-KnifeLifePlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8TWVWBQE3T;
@@ -430,6 +605,7 @@
 		};
 		3661CC891E0712CB00235223 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221308EF6C134E47B0897DBA /* Pods-KnifeLifePlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8TWVWBQE3T;
@@ -443,6 +619,7 @@
 		};
 		3661CC8B1E0712CB00235223 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDEF543ED1DDDB89DB0341F /* Pods-KnifeLifePlaygroundTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +635,7 @@
 		};
 		3661CC8C1E0712CB00235223 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD4D320D8D81E91A20BD132 /* Pods-KnifeLifePlaygroundTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +651,7 @@
 		};
 		3661CC8E1E0712CB00235223 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538A0B57B3B2036E7FBEADB1 /* Pods-KnifeLifePlaygroundUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8TWVWBQE3T;
@@ -487,6 +666,7 @@
 		};
 		3661CC8F1E0712CB00235223 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7BF1A22115E7C02679C6A29 /* Pods-KnifeLifePlaygroundUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8TWVWBQE3T;

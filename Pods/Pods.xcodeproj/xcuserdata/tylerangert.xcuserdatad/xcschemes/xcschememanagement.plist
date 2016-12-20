@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-KnifeLifePlayground.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KnifeLifePlaygroundTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-KnifeLifePlaygroundUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TextFieldEffects.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8953770B82599AC51CE319D104E0A476</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D8D821D4011D06A09E297A6EDA6F59B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B65DFDEF4D88354EDFDC747B7BA54EE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC8B84B958F6FCBB485AEE2962B7DC8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

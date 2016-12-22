@@ -15,11 +15,9 @@ class AddContactController: UIViewController {
     @IBOutlet weak var importButton: UIButton!
     @IBOutlet weak var saveButton: UIBarButtonItem!
     
-    //contacts shit
-    
     
     //I like this orange.
-    let tylerOrange = UIColor(colorLiteralRed: 233/255, green: 157/255, blue: 31/255, alpha: 1.0)
+    let tylerOrange = UIColor(colorLiteralRed: 250/255, green: 162/255, blue: 18/255, alpha: 1.0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +43,7 @@ class AddContactController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
     }
     
     override func didReceiveMemoryWarning() {

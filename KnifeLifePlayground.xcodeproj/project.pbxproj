@@ -16,6 +16,9 @@
 		3661CC6D1E0712CB00235223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3661CC6B1E0712CB00235223 /* LaunchScreen.storyboard */; };
 		3661CC781E0712CB00235223 /* KnifeLifePlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC771E0712CB00235223 /* KnifeLifePlaygroundTests.swift */; };
 		3661CC831E0712CB00235223 /* KnifeLifePlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC821E0712CB00235223 /* KnifeLifePlaygroundUITests.swift */; };
+		36882AB01E0B79F200CA57D1 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36882AAF1E0B79F200CA57D1 /* DatePickerDialog.swift */; };
+		36F83B311E0A459800DEFBB4 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F83B301E0A459800DEFBB4 /* ContactController.swift */; };
+		36F83B331E0A45C700DEFBB4 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F83B321E0A45C700DEFBB4 /* ContactTableViewController.swift */; };
 		C07768A08E982CD086DD2298 /* Pods_KnifeLifePlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21E7EBF4409D49C926E2B12 /* Pods_KnifeLifePlaygroundTests.framework */; };
 		F0847AFE4688F33DA881171C /* Pods_KnifeLifePlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513596BA0A0D950AFD3EE8B7 /* Pods_KnifeLifePlaygroundUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +56,9 @@
 		3661CC7E1E0712CB00235223 /* KnifeLifePlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnifeLifePlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3661CC821E0712CB00235223 /* KnifeLifePlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnifeLifePlaygroundUITests.swift; sourceTree = "<group>"; };
 		3661CC841E0712CB00235223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36882AAF1E0B79F200CA57D1 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		36F83B301E0A459800DEFBB4 /* ContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		36F83B321E0A45C700DEFBB4 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 		513596BA0A0D950AFD3EE8B7 /* Pods_KnifeLifePlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnifeLifePlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		538A0B57B3B2036E7FBEADB1 /* Pods-KnifeLifePlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnifeLifePlaygroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnifeLifePlaygroundUITests/Pods-KnifeLifePlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5AD6459C04F181DC315726FB /* Pods-KnifeLifePlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnifeLifePlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KnifeLifePlayground/Pods-KnifeLifePlayground.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +148,9 @@
 				3661CC621E0712CB00235223 /* AppDelegate.swift */,
 				3661CC641E0712CB00235223 /* AddContactController.swift */,
 				361663941E08E956006507B9 /* AddContactTableViewController.swift */,
+				36F83B301E0A459800DEFBB4 /* ContactController.swift */,
+				36F83B321E0A45C700DEFBB4 /* ContactTableViewController.swift */,
+				36882AAF1E0B79F200CA57D1 /* DatePickerDialog.swift */,
 				3661CC661E0712CB00235223 /* Main.storyboard */,
 				3661CC691E0712CB00235223 /* Assets.xcassets */,
 				3661CC6B1E0712CB00235223 /* LaunchScreen.storyboard */,
@@ -441,7 +450,10 @@
 			files = (
 				3661CC651E0712CB00235223 /* AddContactController.swift in Sources */,
 				3661CC631E0712CB00235223 /* AppDelegate.swift in Sources */,
+				36F83B331E0A45C700DEFBB4 /* ContactTableViewController.swift in Sources */,
+				36F83B311E0A459800DEFBB4 /* ContactController.swift in Sources */,
 				361663951E08E956006507B9 /* AddContactTableViewController.swift in Sources */,
+				36882AB01E0B79F200CA57D1 /* DatePickerDialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

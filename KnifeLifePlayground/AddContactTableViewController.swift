@@ -8,10 +8,9 @@
 
 import Foundation
 import UIKit
-import TextFieldEffects
 
 class AddContactTableViewController: UITableViewController {
-        
+    
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var lastName: UITextField!
     @IBOutlet weak var demoDate: UILabel!
@@ -19,6 +18,8 @@ class AddContactTableViewController: UITableViewController {
     @IBOutlet weak var address: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var additionalInfo: UITextField!
+    
+    @IBOutlet weak var scheduleButton: UIButton!
     
     override func viewDidLoad() {
         self.tableView.delegate = self
@@ -29,6 +30,23 @@ class AddContactTableViewController: UITableViewController {
         
         //removes top space from UITableView so it's flush with the button.
         self.tableView.contentInset = UIEdgeInsetsMake(-40, 0, 0, 0)
+        
+        
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        formatter.timeStyle = .none
+        
         }
+    
+    @IBAction func pressSchedule(_ sender: Any) {
+        
+        DatePickerDialog().show("Set demo date", doneButtonTitle: "Done", cancelButtonTitle: "Cancel", datePickerMode: .date) {
+            (date) -> Void in
+            self.demoDate.text! = "\(date)"
+        }
+        
+        
+    }
+    
     
 }

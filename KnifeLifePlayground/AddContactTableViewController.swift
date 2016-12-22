@@ -22,8 +22,8 @@ class AddContactTableViewController: UITableViewController {
     @IBOutlet weak var scheduleButton: UIButton!
     
     override func viewDidLoad() {
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
+
+        self.tableView.allowsSelection = false
                 
         //prevents scrolling for static content
         self.tableView.isScrollEnabled = false
@@ -39,6 +39,9 @@ class AddContactTableViewController: UITableViewController {
         }
     
     @IBAction func pressSchedule(_ sender: Any) {
+        
+        let button = sender as! UIButton
+        button.vibrate()
         
         DatePickerDialog().show("Set demo date", doneButtonTitle: "Done", cancelButtonTitle: "Cancel", datePickerMode: .date) {
             (date) -> Void in

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Contacts
 
 class AddContactController: UIViewController {
 
@@ -15,6 +14,8 @@ class AddContactController: UIViewController {
     @IBOutlet weak var importButton: UIButton!
     @IBOutlet weak var saveButton: UIBarButtonItem!
     
+    @IBOutlet weak var containerView: UIView!
+    var tableView: UITableViewController?
     
     //I like this orange.
     let tylerOrange = UIColor(colorLiteralRed: 250/255, green: 162/255, blue: 18/255, alpha: 1.0)
@@ -35,15 +36,15 @@ class AddContactController: UIViewController {
         importButton.layer.borderWidth = 1
         importButton.layer.borderColor = tylerOrange.cgColor
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    }
+    
+    @IBAction func save(_ sender: Any) {
+    }
 
     @IBAction func importContact(_ sender: Any) {
         
-        
-        
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    
     }
     
     override func didReceiveMemoryWarning() {

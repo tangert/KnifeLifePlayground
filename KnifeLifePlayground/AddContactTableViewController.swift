@@ -11,6 +11,8 @@ import UIKit
 
 class AddContactTableViewController: UITableViewController {
     
+    static var sharedInstance = AddContactTableViewController()
+    
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var lastName: UITextField!
     @IBOutlet weak var demoDate: UILabel!
@@ -29,7 +31,7 @@ class AddContactTableViewController: UITableViewController {
         self.tableView.isScrollEnabled = false
         
         //removes top space from UITableView so it's flush with the button.
-        self.tableView.contentInset = UIEdgeInsetsMake(-40, 0, 0, 0)
+        self.tableView.contentInset = UIEdgeInsetsMake(-100, 0, 0, 0)
         
         
         let formatter = DateFormatter()

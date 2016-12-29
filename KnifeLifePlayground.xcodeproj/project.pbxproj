@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0E6EEB116F1E6B7B68B4C892 /* Pods_KnifeLifePlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D84A88D8C3AD7F318CD61C /* Pods_KnifeLifePlayground.framework */; };
 		361663951E08E956006507B9 /* AddContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361663941E08E956006507B9 /* AddContactTableViewController.swift */; };
+		3638DD401E15B3D500846B14 /* DemoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3638DD3F1E15B3D500846B14 /* DemoDetailController.swift */; };
+		3638DD421E15B3E300846B14 /* CallDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3638DD411E15B3E300846B14 /* CallDetailController.swift */; };
 		3661CC631E0712CB00235223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC621E0712CB00235223 /* AppDelegate.swift */; };
 		3661CC651E0712CB00235223 /* AddContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC641E0712CB00235223 /* AddContactController.swift */; };
 		3661CC681E0712CB00235223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3661CC661E0712CB00235223 /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 /* Begin PBXFileReference section */
 		221308EF6C134E47B0897DBA /* Pods-KnifeLifePlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KnifeLifePlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-KnifeLifePlayground/Pods-KnifeLifePlayground.release.xcconfig"; sourceTree = "<group>"; };
 		361663941E08E956006507B9 /* AddContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactTableViewController.swift; sourceTree = "<group>"; };
+		3638DD3F1E15B3D500846B14 /* DemoDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDetailController.swift; sourceTree = "<group>"; };
+		3638DD411E15B3E300846B14 /* CallDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallDetailController.swift; sourceTree = "<group>"; };
 		3661CC5F1E0712CB00235223 /* KnifeLifePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnifeLifePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3661CC621E0712CB00235223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3661CC641E0712CB00235223 /* AddContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3638DD431E15B3EC00846B14 /* Add customer */ = {
+			isa = PBXGroup;
+			children = (
+				3661CC641E0712CB00235223 /* AddContactController.swift */,
+				361663941E08E956006507B9 /* AddContactTableViewController.swift */,
+			);
+			name = "Add customer";
+			sourceTree = "<group>";
+		};
+		3638DD441E15B3FC00846B14 /* Customer detail */ = {
+			isa = PBXGroup;
+			children = (
+				36F83B301E0A459800DEFBB4 /* ContactController.swift */,
+				36F83B321E0A45C700DEFBB4 /* ContactTableViewController.swift */,
+			);
+			name = "Customer detail";
+			sourceTree = "<group>";
+		};
+		3638DD451E15B40B00846B14 /* Demo detail */ = {
+			isa = PBXGroup;
+			children = (
+				3638DD3F1E15B3D500846B14 /* DemoDetailController.swift */,
+			);
+			name = "Demo detail";
+			sourceTree = "<group>";
+		};
+		3638DD461E15B42200846B14 /* Call detail */ = {
+			isa = PBXGroup;
+			children = (
+				3638DD411E15B3E300846B14 /* CallDetailController.swift */,
+			);
+			name = "Call detail";
+			sourceTree = "<group>";
+		};
 		3661CC561E0712CB00235223 = {
 			isa = PBXGroup;
 			children = (
@@ -148,10 +186,10 @@
 			isa = PBXGroup;
 			children = (
 				3661CC621E0712CB00235223 /* AppDelegate.swift */,
-				3661CC641E0712CB00235223 /* AddContactController.swift */,
-				361663941E08E956006507B9 /* AddContactTableViewController.swift */,
-				36F83B301E0A459800DEFBB4 /* ContactController.swift */,
-				36F83B321E0A45C700DEFBB4 /* ContactTableViewController.swift */,
+				3638DD431E15B3EC00846B14 /* Add customer */,
+				3638DD441E15B3FC00846B14 /* Customer detail */,
+				3638DD451E15B40B00846B14 /* Demo detail */,
+				3638DD461E15B42200846B14 /* Call detail */,
 				36882AAF1E0B79F200CA57D1 /* DatePickerDialog.swift */,
 				36882AB11E0B924200CA57D1 /* extensions.swift */,
 				3661CC661E0712CB00235223 /* Main.storyboard */,
@@ -451,9 +489,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3638DD421E15B3E300846B14 /* CallDetailController.swift in Sources */,
 				3661CC651E0712CB00235223 /* AddContactController.swift in Sources */,
 				3661CC631E0712CB00235223 /* AppDelegate.swift in Sources */,
 				36F83B331E0A45C700DEFBB4 /* ContactTableViewController.swift in Sources */,
+				3638DD401E15B3D500846B14 /* DemoDetailController.swift in Sources */,
 				36882AB21E0B924200CA57D1 /* extensions.swift in Sources */,
 				36F83B311E0A459800DEFBB4 /* ContactController.swift in Sources */,
 				361663951E08E956006507B9 /* AddContactTableViewController.swift in Sources */,

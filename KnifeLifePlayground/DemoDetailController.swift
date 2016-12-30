@@ -14,6 +14,4 @@ class DemoDetailController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    
 }

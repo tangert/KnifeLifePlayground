@@ -20,6 +20,9 @@
 		3661CC831E0712CB00235223 /* KnifeLifePlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3661CC821E0712CB00235223 /* KnifeLifePlaygroundUITests.swift */; };
 		36882AB01E0B79F200CA57D1 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36882AAF1E0B79F200CA57D1 /* DatePickerDialog.swift */; };
 		36882AB21E0B924200CA57D1 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36882AB11E0B924200CA57D1 /* extensions.swift */; };
+		36DDD5D91E16FA19001FEF6A /* CallDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDD5D81E16FA19001FEF6A /* CallDetailTableViewController.swift */; };
+		36DDD5DB1E16FA29001FEF6A /* DemoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDD5DA1E16FA29001FEF6A /* DemoDetailTableViewController.swift */; };
+		36DDD5DD1E170542001FEF6A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDD5DC1E170542001FEF6A /* RootViewController.swift */; };
 		36F83B311E0A459800DEFBB4 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F83B301E0A459800DEFBB4 /* ContactController.swift */; };
 		36F83B331E0A45C700DEFBB4 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F83B321E0A45C700DEFBB4 /* ContactTableViewController.swift */; };
 		C07768A08E982CD086DD2298 /* Pods_KnifeLifePlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E21E7EBF4409D49C926E2B12 /* Pods_KnifeLifePlaygroundTests.framework */; };
@@ -63,6 +66,9 @@
 		3661CC841E0712CB00235223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36882AAF1E0B79F200CA57D1 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
 		36882AB11E0B924200CA57D1 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		36DDD5D81E16FA19001FEF6A /* CallDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallDetailTableViewController.swift; sourceTree = "<group>"; };
+		36DDD5DA1E16FA29001FEF6A /* DemoDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoDetailTableViewController.swift; sourceTree = "<group>"; };
+		36DDD5DC1E170542001FEF6A /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		36F83B301E0A459800DEFBB4 /* ContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
 		36F83B321E0A45C700DEFBB4 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 		513596BA0A0D950AFD3EE8B7 /* Pods_KnifeLifePlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KnifeLifePlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				3638DD3F1E15B3D500846B14 /* DemoDetailController.swift */,
+				36DDD5DA1E16FA29001FEF6A /* DemoDetailTableViewController.swift */,
 			);
 			name = "Demo detail";
 			sourceTree = "<group>";
@@ -156,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				3638DD411E15B3E300846B14 /* CallDetailController.swift */,
+				36DDD5D81E16FA19001FEF6A /* CallDetailTableViewController.swift */,
 			);
 			name = "Call detail";
 			sourceTree = "<group>";
@@ -186,10 +194,11 @@
 			isa = PBXGroup;
 			children = (
 				3661CC621E0712CB00235223 /* AppDelegate.swift */,
+				36DDD5DC1E170542001FEF6A /* RootViewController.swift */,
 				3638DD431E15B3EC00846B14 /* Add customer */,
 				3638DD441E15B3FC00846B14 /* Customer detail */,
-				3638DD451E15B40B00846B14 /* Demo detail */,
 				3638DD461E15B42200846B14 /* Call detail */,
+				3638DD451E15B40B00846B14 /* Demo detail */,
 				36882AAF1E0B79F200CA57D1 /* DatePickerDialog.swift */,
 				36882AB11E0B924200CA57D1 /* extensions.swift */,
 				3661CC661E0712CB00235223 /* Main.storyboard */,
@@ -490,7 +499,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3638DD421E15B3E300846B14 /* CallDetailController.swift in Sources */,
+				36DDD5DB1E16FA29001FEF6A /* DemoDetailTableViewController.swift in Sources */,
+				36DDD5DD1E170542001FEF6A /* RootViewController.swift in Sources */,
 				3661CC651E0712CB00235223 /* AddContactController.swift in Sources */,
+				36DDD5D91E16FA19001FEF6A /* CallDetailTableViewController.swift in Sources */,
 				3661CC631E0712CB00235223 /* AppDelegate.swift in Sources */,
 				36F83B331E0A45C700DEFBB4 /* ContactTableViewController.swift in Sources */,
 				3638DD401E15B3D500846B14 /* DemoDetailController.swift in Sources */,

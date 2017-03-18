@@ -17,6 +17,6 @@ target 'KnifeLifePlayground' do
     # Pods for testing
   end
 
-pod "TextFieldEffects"
+pod 'Charts'
 
 end

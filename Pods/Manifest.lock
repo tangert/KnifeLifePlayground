@@ -1,12 +1,14 @@
 PODS:
-  - TextFieldEffects (1.2.0)
+  - Charts (3.0.1):
+    - Charts/Core (= 3.0.1)
+  - Charts/Core (3.0.1)
 
 DEPENDENCIES:
-  - TextFieldEffects
+  - Charts
 
 SPEC CHECKSUMS:
-  TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
+  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
 
-PODFILE CHECKSUM: 26007f29ea0c188b0ba6497acf4dd9bc2a40cb5f
+PODFILE CHECKSUM: 94a0aac108f781ceed34429f9c933c2392058bf3
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0.rc.1

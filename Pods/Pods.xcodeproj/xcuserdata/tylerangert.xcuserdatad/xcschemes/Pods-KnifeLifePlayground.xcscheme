@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B65DFDEF4D88354EDFDC747B7BA54EE8"
+               BlueprintIdentifier = "5F00815A19339CA03C86D1B101A9B4ED"
                BuildableName = "Pods_KnifeLifePlayground.framework"
                BlueprintName = "Pods-KnifeLifePlayground"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B65DFDEF4D88354EDFDC747B7BA54EE8"
+            BlueprintIdentifier = "5F00815A19339CA03C86D1B101A9B4ED"
             BuildableName = "Pods_KnifeLifePlayground.framework"
             BlueprintName = "Pods-KnifeLifePlayground"
             ReferencedContainer = "container:Pods.xcodeproj">
